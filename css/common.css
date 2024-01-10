@@ -1,20 +1,14 @@
-.con {
+.con,
+.slogan {
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
 }
 
-.fc_rd {
-    color: #f00;
-}
+.btn {
+    border: 1px solid #222;
+    padding: 11px 36px;
+    border-radius: 20px;
 
-.fc_ff {
-    color: slateblue;
 }
-
-.fc_bc {
-    color: burlywood;
-}
-
-.fc_gc {}

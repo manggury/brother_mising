@@ -86,7 +86,7 @@ $(function () {
         $('.content_wrap .tab_con .sub_slide').removeClass('on')
         $('.content_wrap .tab_con .sub_slide').eq(idx).addClass('on')
 
-        $('.content_wrap .tab_con .sub_slide').slick('setPosition')
+        // $('.content_wrap .tab_con .sub_slide').slick('setPosition')
     });
     $('.content_wrap .tab_con .sub_slide').slick({
         arrows: false,
