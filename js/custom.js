@@ -1,6 +1,6 @@
 $(function () {
     $('.visual_slide').slick({
-        arrows: false,
+        arrows: true,
     });
 
 
@@ -92,5 +92,7 @@ $(function () {
         arrows: false,
         slidesToShow: 3,
         slidesToScroll: 1,
+        dots: true,
     });
+
 });
