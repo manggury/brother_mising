@@ -1,6 +1,13 @@
 $(function () {
+
+    $('.header .xi-bars').on('click', function (e) {
+        e.preventDefault();
+        $('.header .gnb').toggleClass('on');
+    });
+
     $('.visual_slide').slick({
         arrows: true,
+        dots: true,
     });
 
 
